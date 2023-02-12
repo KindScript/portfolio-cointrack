@@ -801,7 +801,7 @@ label.color{
     margin-top: 40px;
 }
 .analytics .btns button{
-    width: 388px;
+    width: 100%;
     height: 47px;
     margin: 15px auto;
     padding: 6px 28px;
