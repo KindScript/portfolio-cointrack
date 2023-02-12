@@ -458,7 +458,7 @@ span.transform{
     position: absolute; 
     top: 110px;
     right: 20px;
-    z-index: 700; 
+    z-index: 800; 
     opacity: 0;
     animation: opacity 5s alternate infinite;
 }
