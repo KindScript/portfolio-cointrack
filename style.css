@@ -44,12 +44,18 @@ nav img{
 nav img[alt="Arrow"]{
     margin: 0 0 0 8px;
 }
+nav a span{
+    display: inline-block;
+}
 nav a{
     text-decoration: none;
     display: inline-block;
     color: #fff;
     padding: 16px 34px 16px 26px;
     transition: background 0.5s;
+
+    display: flex;
+    align-items: center;
 }
 nav a:hover{
     background: linear-gradient(180deg, #A37DF9 0%, #7B5AC5 100%);
