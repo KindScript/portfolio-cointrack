@@ -9,7 +9,7 @@
 }
 :root {
     --headerHeight: 80px;
-    --aside_blockHeight: 680px;
+    --aside_blockHeight: 720px;
     --asidWidth: 408px;
 }
 body{
@@ -86,6 +86,7 @@ main .main_bloks{
     position: relative; 
 }
 aside.left_block{
+    height: var(--aside_blockHeight);
     position: fixed;
     z-index: 800;
 }
@@ -175,7 +176,7 @@ aside .crypto_blocks{
     display: flex;
     justify-content: space-between;
     gap: 37px;
-    padding: 10px 20px;
+    padding: 15px 20px;
 }
 aside .cryptName_block{
     display: flex;
