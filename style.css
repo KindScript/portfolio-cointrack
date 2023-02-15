@@ -24,7 +24,7 @@ body{
 }
 header{
     width: 100%;
-    height: var(--headerHeight);
+    height: var(--headerHeightchoose_date);
     background: #212834;
     display: flex;
     justify-content: space-between;
@@ -681,11 +681,18 @@ label.color{
     padding: 5px;
     cursor: pointer;
     border: 1px solid transparent;
+    transition: all 0.1s;
 }
 .choose_date ul li button:hover{
     background-color: #1A202C;
     border-color: #A3A0A0;
     border-radius: 2px;
+}
+.choose_date ul li button:focus{
+    border-radius: 2px;
+    background-color: #A3A0A0;
+    color: #1A202C;
+    /* font-weight: bold; */
 }
 .av_D{
     position: relative;
