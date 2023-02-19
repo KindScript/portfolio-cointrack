@@ -86,16 +86,27 @@ main .main_bloks{
     position: relative; 
 }
 aside.left_block{
-    height: var(--aside_blockHeight);
+    
+    
+}
+aside .top_side{
+    height: var(--aside_blockHeight); 
     position: fixed;
     z-index: 800;
-}
-aside{
-    width: var(--asidWidth);
+
     background: #212734;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     padding: 30px 15px 20px;
+}
+/* ///////////////////////////////333333333333333333333333333333 */
+aside{
+    width: var(--asidWidth);
+    /* background: #212734;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 30px 15px 20px; */
+    position: relative;
 }
 aside .btns{
     display: flex;
@@ -254,14 +265,22 @@ aside .binance_flex_block{
 .binance .buttnos_block button:active svg{
     transform: scale(0.9);
 }
-aside.ads{
+aside .ads{
+    width: var(--asidWidth);
+    background: #212734;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 30px 15px 20px;
+/* ////////////////////////////////333333333333333333333333333//////////// */
+
     position: absolute; 
-    top: calc(var(--aside_blockHeight) + var(--headerHeight) + 19px + 10px);
+    /* top: calc(var(--aside_blockHeight) + var(--headerHeight) + 19px + 10px); */
+    top: calc(var(--aside_blockHeight) + 10px);
 }
 .close_and_p{
     display: flex;
 }
-aside.ads .close{
+aside .ads .close{
     width: 23px;
     height: 23px;
     background: #1A202C;
@@ -273,22 +292,22 @@ aside.ads .close{
     cursor: pointer;
     transition: background 0.3s;
 }
-aside.ads .close:hover{
+aside .ads .close:hover{
     background: #fff;
 }
-aside.ads .close:hover svg path{
+aside .ads .close:hover svg path{
     fill: #1A202C;
 }
-aside.ads p{
+aside .ads p{
     font-size: 18px;
     font-weight: 500;
     line-height: 180%;
     width: 335px;
 }
-aside.ads p span{
+aside .ads p span{
     color: #e04f44;
 }
-aside.ads button{
+aside .ads button{
     width: 100%;
     border: none;
     box-shadow: none;
@@ -298,7 +317,7 @@ aside.ads button{
     padding: 9px 130px;
     margin-top: 15px;
 }
-aside.ads button:hover{
+aside .ads button:hover{
     opacity: 0.7;
 }
 .main_right_block{
@@ -692,6 +711,7 @@ label.color{
     border-radius: 2px;
     background-color: #A3A0A0;
     color: #1A202C;
+    /* font-weight: bold; */
 }
 .av_D{
     position: relative;
